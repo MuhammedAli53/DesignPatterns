@@ -1,0 +1,6 @@
+Sorumluluk zinciri kalıbı sisteme gönderilen bir isteğin (komut) hangi nesne tarafından cevaplanması
+gerektiğini bilmediğimiz durumlarda ya da isteği yapan nesne ve servis sağlayan nesne arasında sıkı
+bir bağ oluşmasını engellememiz gerektiğinde kullanılmaktadır. Bu tasarım kalıbında servis sağlayan
+ilgili tüm nesneler birbirleriyle ilişkili hale getirilir. Bir nesne zincirdeki kendinden sonraki
+nesneyi tanır ve isteğe cevap veremediği durumda, kendinden sonraki nesneye iletir. Bu işlem,
+zincirde bulunan doğru servis sağlayıcı nesneyi bulana kadar devam eder.
