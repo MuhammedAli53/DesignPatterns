@@ -1,0 +1,2 @@
+MediatorDP nesneler arasındaki iletişimi merkezi bir noktadan yönetmek için kullanılır.
+Bu sayede nesneler birbirinden haberdar olmadan iletişim kurabilir ve kod daha esnek ve bakımı kolay hale gelir.
